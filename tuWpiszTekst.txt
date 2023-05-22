@@ -1,0 +1,35 @@
+1 void ZLab09::referencja()
+2 {
+3 cout << "---> Referencje" << endl;
+4
+5 //int & refInt = new int;
+6 //int & refInt = 4;
+7
+8 int a = 1, b = 5;
+9 cout << "a=" << a << " b=" << b << endl;
+10
+11 int & refInt = a; //Łączenie z a
+12 cout << "a=" << a << " b=" << b << endl;
+13
+14 refInt = b; //?Łączenie z b?
+15 cout << "a=" << a << " b=" << b << endl;
+16
+17 cout << "To samo ale na wskaźnikach" << endl;
+18 int A = 1, B = 5;
+19 cout << "A=" << A << " B=" << B << endl;
+20
+21 int * wskInt = &A;
+22 cout << "A=" << A << " B=" << B << endl;
+23
+24 wskInt = &B;
+25 cout << "A=" << A << " B=" << B << endl;
+26
+27 Glon glon;
+28 Glon &refGlon = glon;
+29
+30 cout << "Rozmiary" << endl
+31 << "sizeof (int &)=" << sizeof (int &) << endl
+32 << "sizeof(refInt)=" << sizeof(refInt) << endl
+33 << "sizeof(Glon &)=" << sizeof(Glon &) << endl
+34 << "sizeof(refGlon)=" << sizeof(refGlon) << endl;
+35 }

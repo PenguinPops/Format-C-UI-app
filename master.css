@@ -1,0 +1,140 @@
+
+body{
+    margin: 0; 
+    overflow: hidden;
+}
+
+.container {
+    
+    width: 100%;
+    margin: 0;
+    min-height: 600px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(203, 74, 214), rgb(124, 31, 124));
+    color: white;
+}
+
+.boxes {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+input[type=submit]{
+    width: 80%;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(255,255,255,0.5 );
+    border: 0;
+}
+
+input[type=submit]:hover{
+    width: 80%;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    background-color:rgba(255,255,255,0.9);
+    border: 0;
+}
+
+.waiter{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(255,255,255,0.5 );
+}
+
+.waiter p {
+  display: none;
+}
+
+
+.part_1{
+    width:100%;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: black; */
+}
+
+
+.texts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    /* background-color: blue; */
+    padding: 2%;
+}
+
+.part_2{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    padding: 2px 2px;   
+}
+
+.text {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2%;
+}
+.text label{
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: rgba(255,255,255,0.5 );
+    padding: 1% 3%;
+    border-radius: 5px;
+}
+
+.form1{
+    width: 95%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color:rgba(255,255,255,0.5 );
+    border-radius: 5px;
+    /* background-color: brown; */
+}
+textarea{
+    margin: 0 10px;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 90%;
+    height: 50px;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5 );
+    border-radius: 5px;
+}

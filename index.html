@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Format C++</title>
+</head>
+<body>
+    <section class="container">
+        <header class="top">
+            <h1>Format C++</h1>
+        </header>
+        <section class ="boxes">
+            <form class="form1" action="" onsubmit="Run()">
+                <section class="texts">
+                    <section class="text">
+                        <label for="a">Input</label>
+                        <textarea autofocus wrap="hard" name="a" id="a" placeholder="Unformatted code goes here"></textarea>
+                    </section>
+                    <section class="text">
+                        <label for="b">Output</label>
+                        <textarea readonly name="b" id="b"  placeholder="Formatted code will appear here"></textarea>
+                    </section>
+                </section>
+                <!-- <section class="part_1">
+                    <section class="waiter"><p id="waitText">Please wait...</p></section>
+                </section> -->
+                <section class="part_2">
+                    <input type="submit" value="Format the code"/>
+                </section>
+            </form>
+        </section>
+    </section>
+    <script src="renderer.js"></script>
+</body>
+</html>

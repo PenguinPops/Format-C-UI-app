@@ -1,0 +1,17 @@
+{
+  "name": "abcdapp",
+  "version": "1.0.0",
+  "description": "An App",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "electron": "^24.3.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
